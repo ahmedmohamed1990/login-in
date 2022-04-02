@@ -3,7 +3,7 @@ import validate from './validateInfo';
 import useForm from './useForm';
 import './Form.css';
 
-const FormSignup = ({ submitForm }) => {
+const FormLogin = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate
@@ -75,4 +75,4 @@ const FormSignup = ({ submitForm }) => {
   );
 };
 
-export default FormSignup;
+export default FormLogin;
